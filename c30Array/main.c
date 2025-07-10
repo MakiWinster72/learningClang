@@ -38,6 +38,7 @@ int main() {
 void inputArray(int arr[], int size) {
         int scores[5] = {0};
 
+    // 输入5个分数
     for(int i = 0; i < 5 ; i++) {
         printf("Enter a score: ");
         scanf("%d", &scores[i]);

@@ -8,6 +8,7 @@ int main() {
     int min = 50;
     int max = 100;
 
+    // 生成三个50到100之间的随机数
     int randNum1 = rand() % (max - min + 1) + min;
     int randNum2 = rand() % (max - min + 1) + min;
     int randNum3 = rand() % (max - min + 1) + min;

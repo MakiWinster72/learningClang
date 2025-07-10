@@ -5,10 +5,12 @@ int main() {
 
     bool isOnline = false;
 
+    // 判断isOnline是否为true，如果是，则打印"Online"，否则打印"Offline"
     printf("%s", (isOnline) ? "Online" : "Offline");
 
     int number = 8;
 
+    // 判断number是否为偶数，如果是，则打印"Even"，否则打印"Odd"
     printf("%s", (number % 2 == 0) ? "Even" : "Odd");
 
 
@@ -16,6 +18,7 @@ int main() {
     int y = 20;
     int z = (x > y) ? x : y; // z will be 20
 
+    // 打印z的值
     printf("%d", z);
 
 

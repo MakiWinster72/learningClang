@@ -12,9 +12,11 @@ int main() {
     
     printf("Enter a adjective(describe something): ");
     fgets(adjective1, sizeof(adjective1), stdin);
+    //fgets函数会将换行符也读入，所以需要将其替换为字符串结束符
     adjective1[strlen(adjective1) - 1] = '\0';
     printf("Enter a noun(animal or person): ");
     scanf("%s", noun);
+    //scanf函数会将换行符留在输入缓冲区中，需要使用getchar()将其取出
     getchar();
     printf("Enter a adjective(describe something): ");
     fgets(adjective2, sizeof(adjective2), stdin);

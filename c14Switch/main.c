@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
+    // 定义一个整数变量dayOfWeek，表示星期几
     int dayOfWeek = 1;
 
+    // 使用if-else语句判断dayOfWeek的值，并输出对应的星期几
     if (dayOfWeek == 1) {
         printf("Monday\n");
     } else if (dayOfWeek == 2) {

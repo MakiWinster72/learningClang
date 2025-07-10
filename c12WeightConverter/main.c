@@ -13,10 +13,14 @@ int main() {
     scanf("%d", &choice);
 
     if (choice == 1) {
+        // 提示用户输入华氏温度
         // kg to pounds
+        // 读取用户输入
         printf("Enter weight in kilograms: ");
+        // 将华氏温度转换为摄氏温度
         scanf("%f", &kilograms);
         pounds = kilograms * 2.20462f;
+        // 提示用户输入摄氏温度
         printf("%.2f kilograms is equal to %.2f pounds\n", kilograms, pounds);
     }
     if (choice == 2) {

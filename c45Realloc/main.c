@@ -9,18 +9,22 @@ int main() {
     printf("Enter the number of prices: ");
     scanf("%d", &number);
 
+    // 动态分配内存，存储价格
     float *price = malloc(number * sizeof(float));
 
+    // 检查内存分配是否成功
     if (price == NULL) {
         printf("Memory allocation failed\n");
         return 1;
     }
 
+    // 循环输入价格
     for (int i = 0; i < number; i++) {
         printf("Enter price number#%d: ", i + 1);
         scanf("%f", &price[i]);
     }
 
+    // 输入新的价格数量
     int newNum = 0;
     printf("Enter a new Number of prices: ");
     scanf("%d",&newNum);

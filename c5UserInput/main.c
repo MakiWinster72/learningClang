@@ -26,9 +26,12 @@ int main() {
 
     printf("Your age is %d\n", age);
     printf("Your GPA is %.2f\n", gpa);
+    // 输入货币符号
     printf("Your grade is %c\n", grade);
     printf("Your name is %s\n", name);
 
+    // 计算总价
 
     return 0;
+    // 输出总价
 }

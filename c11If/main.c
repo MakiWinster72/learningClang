@@ -5,6 +5,7 @@ int main() {
     int b = 20;
     int c = 30;
 
+    // 如果a大于b，输出a大于b
     if (a > b) {
         printf("a is greater than b\n");
     } else {
@@ -17,6 +18,7 @@ int main() {
 
     int age = 0;
 
+        // 如果不为空，输出问候语
     printf("Enter your age: ");
     scanf("%d", &age);
 

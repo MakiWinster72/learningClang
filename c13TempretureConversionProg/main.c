@@ -1,13 +1,17 @@
 #include <stdio.h>
 
 int main() {
+    // 声明变量
     char choice;
     float fahrenheit = 0.0f;
     float celsius = 0.0f;
 
+    // 提示用户输入选择
     printf("Enter 'F' to convert Fahrenheit to Celsius or 'C' to convert Celsius to Fahrenheit: ");
+    // 读取用户输入
     scanf("%c", &choice);
 
+    // 判断用户输入的选择
     if (choice == 'F' || choice == 'f') {
         printf("Enter the temperature in Fahrenheit: ");
         scanf("%f", &fahrenheit);
